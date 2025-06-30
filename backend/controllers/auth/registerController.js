@@ -19,9 +19,6 @@ const registerController = async (req, res) => {
       password: hashedPassword,
     });
 
-    console.log(user);
-    console.log("This the res ", res)
-
     generateToken(res, user._id);
 
     res.status(201).json({
