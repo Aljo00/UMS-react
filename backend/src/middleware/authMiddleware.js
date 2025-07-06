@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import userModel from "../models/user.model.js";
+import userModel from "../models/userModel.js";
 import { HttpStatus } from "../utils/httpStatusCode.js";
 
 // ===========================================================================================================
