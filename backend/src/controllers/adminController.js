@@ -1,12 +1,12 @@
 import { ZodError } from "zod";
-import userModel from "../models/user.model.js";
+import userModel from "../models/userModal.js";
 import { HttpStatus } from "../utils/httpStatusCode.js";
 import {
   adminLoginSchema,
   userRegistrationSchema,
 } from "../validations/userValidation.js";
-import { generateRefreshToken } from "../services/auth.service.js";
-import userService from "../services/user.service.js";
+import { generateRefreshToken } from "../services/authService.js";
+import userService from "../services/userServices.js";
 
 // ===========================================================================================================
 // LOGIN ADMIN

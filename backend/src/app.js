@@ -5,8 +5,8 @@ import dotenv from "dotenv";
 dotenv.config();
 import cookieParser from "cookie-parser";
 
-import userRouter from "./routes/user.routes.js";
-import adminRouter from "./routes/admin.routes.js";
+import userRouter from "./routes/userRoutes.js";
+import adminRouter from "./routes/adminRoutes.js";
 
 app.use(
   cors({
